@@ -21,13 +21,13 @@ function BookList() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className={styles.book_list}>
         {console.log("livros",books)}
         {books.map((book, index) => (
-                        <li className={styles.categoria_item} key={index} >
-                             <Book book={book}/>
+                        
+                             <Book book={book} key={index}/>
                            
-                        </li>
+                     
         ))}
     </div>
   )
