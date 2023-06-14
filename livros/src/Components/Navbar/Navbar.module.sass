@@ -1,13 +1,14 @@
+@use "../../styles/variables"
+
 .cabecalho
-    height: 56px
+    right: 0px
+    top: 0px
+    display: flex
+    height: 80px
     background-color: variables.$cor_principal
     width: 100%
     align-items: center
-    display: grid
-    grid-template-columns: 1fr 2fr 2fr
-    grid-template-areas: 'logo links busca icones'
-    height: 100px
-    padding: 0 5%
+    padding: 0 6%
     position: absolute
     z-index: 1
 
@@ -25,8 +26,5 @@
     color: variables.$cor_secundaria
     font-size: 22px
 
-
-
-
 .icones
-   margin-left: 2px
+    margin-left: 2px

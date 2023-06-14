@@ -9,26 +9,13 @@ import Search from '../Search'
 function Navbar() {
     return (
         <nav className={styles.cabecalho}>
-            <FaBook style={{ fontSize: '30px', color: "#ffffff" }}  />
-            <div className={styles.links}>
-                <div>
-                    <Link to='/' className={classNames(styles.link, {
-                        [styles.selected]: location.pathname === '/'
-                    })}>
-                        Início
-                    </Link>
-                </div>
-            </div>
-            <div className={styles.pesquisa}>
-                <Search />
-            </div>
+            <FaBook style={{ fontSize: '30px', color: "#ffffff" }} />
+
+
+            <Search />
+
             <div className={styles.icones}>
-                <Link to="/carrinho">
-                    {location.pathname === '/carrinho'
-                        ? <IoCartSharp {...iconeProps} />
-                        : <IoCartOutline {...iconeProps} />
-                    }
-                </Link>
+
             </div>
         </nav>
     )

@@ -15,7 +15,10 @@ function Book({ book }) {
                         <h2>{book.volumeInfo.title}</h2>
                     </div>
                     <div className={styles.book_thumb}>
-                        <img src={book.volumeInfo.imageLinks.smallThumbnail}/>
+                        <a href={book.volumeInfo.canonicalVolumeLink} target="_blank">
+                            <img src={book.volumeInfo.imageLinks.smallThumbnail}/>
+                        </a>
+                        
 
                     </div>
                     <div className={styles.book_description}>

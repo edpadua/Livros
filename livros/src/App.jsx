@@ -4,16 +4,20 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import BookList from './Components/BookList'
-import Search from './Components/Search'
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 function App() {
-  
+
 
   return (
     <>
-      <Navbar/>
-      <BookList/>
+      <Navbar />
+      <div className='content'>
+        <BookList />
+      </div>
+
+      <Footer />
     </>
   )
 }
