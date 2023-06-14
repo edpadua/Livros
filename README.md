@@ -28,7 +28,7 @@ The main purpose of this project is the use of Redux (react-redux) to manage glo
 
 ### Screeshot - Mobile
 
-<img src="https://github.com/edpadua/Livros/assets/4975360/8884c25e-d042-40d0-b804-22aecd76d4d7" >
+<img src="https://github.com/edpadua/Livros/assets/4975360/8884c25e-d042-40d0-b804-22aecd76d4d7" style="width: 50%;" >
 
 
 
