@@ -1,0 +1,32 @@
+.cabecalho
+    height: 56px
+    background-color: variables.$cor_principal
+    width: 100%
+    align-items: center
+    display: grid
+    grid-template-columns: 1fr 2fr 2fr
+    grid-template-areas: 'logo links busca icones'
+    height: 100px
+    padding: 0 5%
+    position: absolute
+    z-index: 1
+
+.links
+    grid-area: links
+    display: flex
+    justify-content: flex-start
+    gap: 20px
+
+.link
+    color: white
+    font-size: 22px
+
+.link:hover
+    color: variables.$cor_secundaria
+    font-size: 22px
+
+
+
+
+.icones
+   margin-left: 2px
